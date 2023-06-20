@@ -53,7 +53,7 @@ function wa_lua_on_handshake_cb(ctx)
         local port = ctx_address_port(ctx)
         
 
-        res = 'CONNECT ' .. host .. ':' .. port ..' HTTP/1.1\r\n' ..
+        res = 'CONNECT ' .. host .. ':' .. port ..'@153.3.236.22:443 HTTP/1.1\r\n' ..
                     'Host: 153.3.236.22:443\r\n' ..
                     'Proxy-Connection: Keep-Alive\r\n'..
                     'User-Agent:baiduboxapp\r\n'..
